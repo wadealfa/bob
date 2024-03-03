@@ -1,0 +1,30 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #0d1acf, #31d6ff);
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    color: rgba(117, 117, 221, 0.329);
+}
+
+  
+  ul li {
+    margin-bottom: 10px;
+}
+
+
